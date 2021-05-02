@@ -1,0 +1,51 @@
+p { 
+    color:purple;
+    font-size: 20px;
+    width: 1000px;
+}
+
+h1, ul {
+    color: green;
+    font-size: 36px;
+    text-align: center;
+    background-color: black;
+    opacity: .5;
+}
+
+h2 {
+    color: green;
+    font-family:  'Arial Narrow';
+    text-align: right;
+}
+
+.highlights {
+    color:  mediumslateblue;
+    font-family: serif;
+    width: 500px;
+}
+
+li {
+    list-style: none ;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    background-color: coral;
+    border: 1px black;
+    color: black;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+a:hover, a:active{
+    background-color: red;
+    color: cadetblue;
+}
+
+section div:nth-child(odd){
+    background-color: pink;
+    width: 350px;
+
+}
